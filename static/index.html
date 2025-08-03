@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word Unscrambler</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="./script.js" ></script>
+    </head>
+
+    <body>
+
+        <main>
+
+            <div id="errors"></div>
+
+            <form id="theForm">
+                <label for="scrambled" id="info">Enter the scrambled word below!</label>
+                <input type="text" name="scrambled" id="scrambled" aria-labelledby="info" />
+                <button type="submit" id="submitButton">Submit!</button>
+            </form>
+
+            <div id="result">
+                <h2>Possible words:</h2>
+                <table id="output"></table>
+            </div>
+
+
+
+        </main>
+
+    </body>
+
+</html>

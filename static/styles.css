@@ -1,0 +1,79 @@
+@font-face {
+    font-family: playful;
+    src: url("./SuperPlayful-e91WO.ttf");
+}
+
+html {
+    background: rgb(64, 160, 224);
+    height: 100%;
+    font-family: playful;
+}
+
+body {
+    margin: 0 0 0 0;
+    height: 100%;
+}
+
+
+#errors {
+    color: darkred;
+    font-size: 1.5rem;
+}
+
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    row-gap: 2rem;
+}
+
+
+#info {
+    display: block;
+}
+
+input[type="text"]{
+    height: 3rem; font-size: 2.5rem;
+    width: 25rem;
+    border: 0.25rem solid black;
+    border-radius: 1.5rem;
+    outline: none;
+    text-align: center;
+}
+
+
+button {
+    width: 10rem;
+    height: 3rem;
+    border: 0.25rem solid black;
+    border-radius: 1.5rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+
+}
+
+h2 {
+    display: block;
+    text-align: center;
+}
+
+#result {
+    display: none;
+}
+
+#output {
+    width: 15rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
