@@ -57,7 +57,6 @@ form.addEventListener("submit", (e) => {
 
 
 
-
 /**
  * 
  * The main logic goes here
@@ -96,4 +95,5 @@ function unscramble(word = "", dictionary={}) {
 
     return Object.keys(possibleWords)
 }
+
 
